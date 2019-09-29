@@ -16,9 +16,9 @@ services:
     image: mongo:bionic
   
   mongodb-bi-connector:
-    image: ryanhs/mongodb-bi-connector
+    image: ryanhs/mongodb-bi-connector:latest
     environment:
-      MONGO_HOST: mongodb
-      MONGO_PORT: 27017  
+      MONGODB_HOST: mongodb
+      MONGODB_PORT: 27017  
 
 ```
